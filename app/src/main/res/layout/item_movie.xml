@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="25dp">
+
+    <ImageView
+        android:id="@+id/image"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="125dp"
+        android:layout_height="175dp"
+       android:src="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/tvTittle"
+        app:layout_constraintLeft_toRightOf="@id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="132dp"
+        android:text="Nonton Pilem"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteY="0dp"/>
+
+    <TextView
+        android:id="@+id/Deskripsi"
+        app:layout_constraintLeft_toRightOf="@id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="132dp"
+        android:text="lorep ipsum"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="-76dp"
+        tools:layout_editor_absoluteY="38dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:maxLines="4"/>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
